@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import Dashboard from './Dashboard';
-import Home from './Home';
 import Profile from './Profile';
-import Student from './Student';
 import Course from './Course';
 import './App.css';
 
