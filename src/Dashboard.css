@@ -1,0 +1,51 @@
+.dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .dashboard-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Update the style for links within the dashboard */
+  .dashboard-sections a {
+    text-decoration: none;
+  }
+  
+  .dashboard-section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: hsl(0, 23%, 40%);
+    background-color: rgb(160, 236, 146);
+  }
+  
+  .dashboard-section h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .dashboard-section p {
+    margin-bottom: 0;
+    color: #555;
+    
+  }
+  
+  .dashboard-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

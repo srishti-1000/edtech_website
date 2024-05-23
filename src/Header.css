@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Add this style to remove the underline */
+  .header nav a:hover, 
+  .header nav a:focus, 
+  .header nav a:active {
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    color: #61dafb;
+  }
+  
